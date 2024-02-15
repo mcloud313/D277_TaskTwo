@@ -7,10 +7,33 @@
 header {
     background-color: darkblue;
     color: white;
+    min-height: 100px;
+    padding:10px;
+}
+
+nav {
+    min-height:100px;
+    text-align: center;
+    background-color:lightgray;
+}
+
+nav a {
+    margin-right: 15px;
 }
 
 main {
     background-color: white;
+    float: left;
+    min-height:600px;
+}
+
+aside {
+    display: block;
+    float: right;
+    color: darkblue;
+    background-color: lightgray;
+    padding: 10px;
+    min-height:300px;
 }
 
 #footer {
