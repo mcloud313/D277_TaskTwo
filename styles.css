@@ -21,6 +21,11 @@ nav a {
     margin-right: 15px;
 }
 
+a:hover {
+    font-style: bold;
+    color: darkred;
+}
+
 main {
     background-color: white;
     float: left;
@@ -34,6 +39,12 @@ aside {
     background-color: lightgray;
     padding: 10px;
     min-height:300px;
+}
+
+.flag {
+    border: 2px solid black;
+    max-width:200px;
+    height:auto;
 }
 
 #footer {
