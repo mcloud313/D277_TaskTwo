@@ -12,9 +12,13 @@ header {
 }
 
 nav {
-    min-height:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height:75px;
     text-align: center;
     background-color:lightgray;
+    padding:10px;
 }
 
 nav a {
@@ -22,9 +26,9 @@ nav a {
 }
 
 a:hover {
-    font-style: bold;
-    color: darkred;
-}
+   font-weight:bold;
+   color:darkred;
+  }
 
 main {
     background-color: white;
@@ -38,7 +42,7 @@ aside {
     color: darkblue;
     background-color: lightgray;
     padding: 10px;
-    min-height:300px;
+    min-height:500px;
 }
 
 .flag {
