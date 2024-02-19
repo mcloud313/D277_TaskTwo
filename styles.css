@@ -53,6 +53,16 @@ aside {
     position: bottom;
 }
 
+#historyTable {
+    position: relative;
+    right: 40px;
+}
+
+#historyTable th {
+    position: absolute;
+    top: 10px;
+}
+
 #footer {
     background-color: darkblue;
     color: white;
