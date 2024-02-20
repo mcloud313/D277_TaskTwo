@@ -49,17 +49,14 @@ aside {
     border: 2px solid black;
     max-width:200px;
     height:auto;
-    position: bottom;
+    position: absolute;
+    bottom:50px;
+    left:100px;
 }
 
 #historyTable {
-    position: relative;
-    right: 40px;
-}
-
-#historyTable th {
-    position: absolute;
-    top: 10px;
+    position:relative;
+    top:50px;
 }
 
 #footer {
